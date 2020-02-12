@@ -1,0 +1,139 @@
+/* --- Google Fonts --- */
+@font-face {
+  font-family: Montserrat;
+  src: url("fonts/Montserrat/Montserrat-Regular.ttf");
+}
+
+@font-face {
+  font-family: Montserrat_bold;
+  src: url("fonts/Montserrat/Montserrat-Bold.ttf");
+}
+
+@font-face {
+  font-family: Raleway;
+  src: url("fonts/Raleway/Raleway-Regular.ttf");
+}
+
+@font-face {
+  font-family: Raleway_bold;
+  src: url("fonts/Raleway/Raleway-Regular_bold.ttf");
+}
+
+@font-face {
+  font-family: Handgeschreven;
+  src: url("fonts/Cedarville_Cursive/CedarvilleCursive-Regular.ttf");
+}
+
+/*---Fonts and colors---*/
+
+body {
+  /*Wheat*/
+  background-color: #ECDCB0;
+
+  line-height: 25px
+}
+
+h1 {
+  font-family: 'Handgeschreven', Calibri, sans-serif;
+  font-size: 45px;
+
+  /*Dazzled Blue*/
+  color: #2E5077;
+}
+
+h2 {
+  font-family: "Raleway", Calibri, sans-serif;
+}
+
+
+p {
+  font-family: "Montserrat", Calibri, sans-serif;
+  font-size: 15px;
+  margin-bottom: 30px;
+}
+
+a {
+  font-family: 'Handgeschreven', Calibri, sans-serif;
+  text-decoration: none;
+
+  /*Greyscale*/
+  color: rgb(87, 87, 87);
+}
+
+a:hover {
+  opacity: 0.6;
+}
+
+h2, p {
+  /*Cadet BLue*/
+  color: #4DA1A9;
+}
+
+.list-inline {
+  padding: 0;
+}
+
+.list-inline li {
+  display: inline-block;
+}
+
+#extra_info {
+  padding: 0 15px;
+  border-radius: 6px;
+  font-size: 20px;
+
+  /*Deap Space Sparkle*/
+  background-color: #395C6B;
+
+  /*Wheat*/
+  color: #ECDCB0;
+}
+
+.card {
+  padding: 20px;
+  background-color: white;
+  margin-bottom: 20px;
+  border-radius: 14px;
+  box-shadow: 2px 4px 10px red;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+.text-center {
+  text-align: center;
+}
+
+.container {
+  width: 700px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+
+.fab {
+  font-size: 60px;
+  margin-left: 30px;
+}
+
+/*Responsive code*/
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+/*ul {
+  display: inline;
+}*/
